@@ -1,0 +1,67 @@
+.text-fields{
+  width : 40%;
+}
+
+.add-main-div{
+  display:  grid;
+  grid-template-columns: 20% 20% 20%;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 50%; /* Full width */
+  height: 50%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color:rgba(0, 0, 0, 0.5);
+  padding-top: 50px;
+}
+
+
+.modal-content-form {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  height: 25%;
+}
+
+.header-title {
+  color : blue;
+}
+
+.nav-class{
+  height: 17px;
+width: 96%;
+margin-left: 12px;
+}
+
+.task-class{
+  float: left;
+  font-weight: bold;
+  color: gray;
+}
+
+.footer-div{
+  text-align: center;
+  margin-top : 24px;
+}
+
+.custom-btn{
+  border-radius : 10px;
+}
+
+.modal-con {
+  margin: 10px;
+  text-align: center;
+}
